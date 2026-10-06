@@ -1,0 +1,9 @@
+C:\Users\ashkan2026\Desktop\AuroraStay-Hospitality-Operations-Suite\bin\Debug\Assets\hotel-hero.jpg
+C:\Users\ashkan2026\Desktop\AuroraStay-Hospitality-Operations-Suite\bin\Debug\Assets\dashboard-visual.png
+C:\Users\ashkan2026\Desktop\AuroraStay-Hospitality-Operations-Suite\bin\Debug\AshkanHotelManager.exe.config
+C:\Users\ashkan2026\Desktop\AuroraStay-Hospitality-Operations-Suite\bin\Debug\AshkanHotelManager.exe
+C:\Users\ashkan2026\Desktop\AuroraStay-Hospitality-Operations-Suite\bin\Debug\AshkanHotelManager.pdb
+C:\Users\ashkan2026\Desktop\AuroraStay-Hospitality-Operations-Suite\obj\Debug\AshkanHotelManager.csproj.AssemblyReference.cache
+C:\Users\ashkan2026\Desktop\AuroraStay-Hospitality-Operations-Suite\obj\Debug\AshkanHotelManager.csproj.CoreCompileInputs.cache
+C:\Users\ashkan2026\Desktop\AuroraStay-Hospitality-Operations-Suite\obj\Debug\AshkanHotelManager.exe
+C:\Users\ashkan2026\Desktop\AuroraStay-Hospitality-Operations-Suite\obj\Debug\AshkanHotelManager.pdb

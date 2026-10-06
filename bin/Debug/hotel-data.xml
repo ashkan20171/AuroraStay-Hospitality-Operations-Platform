@@ -1,0 +1,350 @@
+<?xml version="1.0" standalone="yes"?>
+<AshkanHotel>
+  <xs:schema id="AshkanHotel" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="AshkanHotel" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Rooms">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="Number" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Floor" type="xs:string" minOccurs="0" />
+                <xs:element name="Capacity" type="xs:string" minOccurs="0" />
+                <xs:element name="Price" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Guests">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" type="xs:string" minOccurs="0" />
+                <xs:element name="NationalId" type="xs:string" minOccurs="0" />
+                <xs:element name="Phone" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="Nationality" type="xs:string" minOccurs="0" />
+                <xs:element name="Notes" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Reservations">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="Guest" type="xs:string" minOccurs="0" />
+                <xs:element name="Room" type="xs:string" minOccurs="0" />
+                <xs:element name="CheckIn" type="xs:string" minOccurs="0" />
+                <xs:element name="CheckOut" type="xs:string" minOccurs="0" />
+                <xs:element name="Adults" type="xs:string" minOccurs="0" />
+                <xs:element name="Children" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+                <xs:element name="Total" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Billing">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="Reservation" type="xs:string" minOccurs="0" />
+                <xs:element name="Amount" type="xs:string" minOccurs="0" />
+                <xs:element name="Paid" type="xs:string" minOccurs="0" />
+                <xs:element name="Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Date" type="xs:string" minOccurs="0" />
+                <xs:element name="Reference" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Housekeeping">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="Room" type="xs:string" minOccurs="0" />
+                <xs:element name="Task" type="xs:string" minOccurs="0" />
+                <xs:element name="AssignedTo" type="xs:string" minOccurs="0" />
+                <xs:element name="Priority" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+                <xs:element name="Date" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Folio">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="Guest" type="xs:string" minOccurs="0" />
+                <xs:element name="Reservation" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Amount" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Date" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Staff">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" type="xs:string" minOccurs="0" />
+                <xs:element name="Role" type="xs:string" minOccurs="0" />
+                <xs:element name="Phone" type="xs:string" minOccurs="0" />
+                <xs:element name="Shift" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Services">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Category" type="xs:string" minOccurs="0" />
+                <xs:element name="Price" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="AuditLog">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="User" type="xs:string" minOccurs="0" />
+                <xs:element name="Action" type="xs:string" minOccurs="0" />
+                <xs:element name="Entity" type="xs:string" minOccurs="0" />
+                <xs:element name="Details" type="xs:string" minOccurs="0" />
+                <xs:element name="Date" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Users">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="Username" type="xs:string" minOccurs="0" />
+                <xs:element name="PasswordHash" type="xs:string" minOccurs="0" />
+                <xs:element name="Salt" type="xs:string" minOccurs="0" />
+                <xs:element name="Role" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+                <xs:element name="LastLogin" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Rooms>
+    <Id>1</Id>
+    <Number>101</Number>
+    <Type>Single</Type>
+    <Floor>1</Floor>
+    <Capacity>2</Capacity>
+    <Price>104</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>2</Id>
+    <Number>102</Number>
+    <Type>Double</Type>
+    <Floor>1</Floor>
+    <Capacity>2</Capacity>
+    <Price>113</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>3</Id>
+    <Number>103</Number>
+    <Type>Single</Type>
+    <Floor>1</Floor>
+    <Capacity>2</Capacity>
+    <Price>122</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>4</Id>
+    <Number>104</Number>
+    <Type>Double</Type>
+    <Floor>1</Floor>
+    <Capacity>2</Capacity>
+    <Price>131</Price>
+    <Status>Occupied</Status>
+  </Rooms>
+  <Rooms>
+    <Id>5</Id>
+    <Number>105</Number>
+    <Type>Single</Type>
+    <Floor>1</Floor>
+    <Capacity>2</Capacity>
+    <Price>140</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>6</Id>
+    <Number>106</Number>
+    <Type>Suite</Type>
+    <Floor>1</Floor>
+    <Capacity>4</Capacity>
+    <Price>149</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>7</Id>
+    <Number>107</Number>
+    <Type>Single</Type>
+    <Floor>2</Floor>
+    <Capacity>2</Capacity>
+    <Price>158</Price>
+    <Status>Cleaning</Status>
+  </Rooms>
+  <Rooms>
+    <Id>8</Id>
+    <Number>108</Number>
+    <Type>Double</Type>
+    <Floor>2</Floor>
+    <Capacity>2</Capacity>
+    <Price>167</Price>
+    <Status>Occupied</Status>
+  </Rooms>
+  <Rooms>
+    <Id>9</Id>
+    <Number>109</Number>
+    <Type>Single</Type>
+    <Floor>2</Floor>
+    <Capacity>2</Capacity>
+    <Price>176</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>10</Id>
+    <Number>110</Number>
+    <Type>Double</Type>
+    <Floor>2</Floor>
+    <Capacity>2</Capacity>
+    <Price>185</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>11</Id>
+    <Number>111</Number>
+    <Type>Single</Type>
+    <Floor>2</Floor>
+    <Capacity>2</Capacity>
+    <Price>194</Price>
+    <Status>Maintenance</Status>
+  </Rooms>
+  <Rooms>
+    <Id>12</Id>
+    <Number>112</Number>
+    <Type>Suite</Type>
+    <Floor>2</Floor>
+    <Capacity>4</Capacity>
+    <Price>203</Price>
+    <Status>Occupied</Status>
+  </Rooms>
+  <Rooms>
+    <Id>13</Id>
+    <Number>113</Number>
+    <Type>Single</Type>
+    <Floor>3</Floor>
+    <Capacity>2</Capacity>
+    <Price>212</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>14</Id>
+    <Number>114</Number>
+    <Type>Double</Type>
+    <Floor>3</Floor>
+    <Capacity>2</Capacity>
+    <Price>221</Price>
+    <Status>Cleaning</Status>
+  </Rooms>
+  <Rooms>
+    <Id>15</Id>
+    <Number>115</Number>
+    <Type>Single</Type>
+    <Floor>3</Floor>
+    <Capacity>2</Capacity>
+    <Price>230</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>16</Id>
+    <Number>116</Number>
+    <Type>Double</Type>
+    <Floor>3</Floor>
+    <Capacity>2</Capacity>
+    <Price>239</Price>
+    <Status>Occupied</Status>
+  </Rooms>
+  <Rooms>
+    <Id>17</Id>
+    <Number>117</Number>
+    <Type>Single</Type>
+    <Floor>3</Floor>
+    <Capacity>2</Capacity>
+    <Price>248</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <Rooms>
+    <Id>18</Id>
+    <Number>118</Number>
+    <Type>Suite</Type>
+    <Floor>3</Floor>
+    <Capacity>4</Capacity>
+    <Price>257</Price>
+    <Status>Available</Status>
+  </Rooms>
+  <AuditLog>
+    <Id>1</Id>
+    <User>admin</User>
+    <Action>Sign in</Action>
+    <Entity>Security</Entity>
+    <Details>Successful login</Details>
+    <Date>2026-10-06 21:02</Date>
+  </AuditLog>
+  <AuditLog>
+    <Id>2</Id>
+    <User>Admin</User>
+    <Action>Sign in failed</Action>
+    <Entity>Security</Entity>
+    <Details>admin</Details>
+    <Date>2026-10-06 21:09</Date>
+  </AuditLog>
+  <AuditLog>
+    <Id>3</Id>
+    <User>admin</User>
+    <Action>Sign in</Action>
+    <Entity>Security</Entity>
+    <Details>Successful login</Details>
+    <Date>2026-10-06 21:09</Date>
+  </AuditLog>
+  <AuditLog>
+    <Id>4</Id>
+    <User>admin</User>
+    <Action>Sign in</Action>
+    <Entity>Security</Entity>
+    <Details>Successful login</Details>
+    <Date>2026-10-06 21:16</Date>
+  </AuditLog>
+  <AuditLog>
+    <Id>5</Id>
+    <User>admin</User>
+    <Action>Sign in</Action>
+    <Entity>Security</Entity>
+    <Details>Successful login</Details>
+    <Date>2026-10-06 21:20</Date>
+  </AuditLog>
+  <Users>
+    <Id>1</Id>
+    <Username>admin</Username>
+    <PasswordHash>vBwKDnbOf2lCaBQPDrlYAfWjSM7NOsh6aOzCxi1TS5Q=</PasswordHash>
+    <Salt>AM7H/+PEnlT6viDF6LuOLQ==</Salt>
+    <Role>Administrator</Role>
+    <Status>Active</Status>
+    <LastLogin>2026-10-06 21:20</LastLogin>
+  </Users>
+</AshkanHotel>
